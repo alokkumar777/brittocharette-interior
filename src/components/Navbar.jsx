@@ -1,26 +1,36 @@
 import React from "react";
+import { useState } from "react";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
   return (
-    <nav className="container navbar navbar-expand-lg">
-      <div className="container-fluid">
-        <div className="navbar-nav me-auto">
-          <ul className="navbar-nav">
-            <li className="nav-item">About</li>
-            <li className="nav-item ms-3">Projects</li>
+    <nav className="my-3">
+      <div className="d-flex justify-content-around">
+        <div>
+          <ul className={`nav-links ${open ? "open" : ""}`}>
+            <li>About</li>
+            <li>Project</li>
           </ul>
         </div>
-        <div className="mx-auto d-flex align-items-center">
-          <img
-            src="../../public/images/logo.svg"
-            alt="brand logo"
-            className="navbar-brand"
-          />
-          <span className="fw-bold">Brittocharette</span>
+        <div>
+          <div className="brand d-flex align-items-center gap-2">
+            <img className="brand-icon" src="/images/logo.svg" alt="logo" />
+            <span className="brand-name">Brittocharette</span>
+          </div>
         </div>
-        <div className="ms-auto">
-          <button className="btn btn-dark rounded-pill">Contact Us</button>
+        <div>
+          <button
+            className={`contact-us btn btn-dark rounded-pill ${
+              open ? "open" : ""
+            }`}
+          >
+            Contact Us
+          </button>
         </div>
+      </div>
+      <div className="menu-icon" onClick={() => setOpen(!open)}>
+        Menu
       </div>
     </nav>
   );
