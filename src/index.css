@@ -3,3 +3,8 @@
 body {
   font-family: "Zalando Sans Expanded", sans-serif !important;
 }
+
+.curved-mask {
+  clip-path: path("M0 0 H100% V100% H0 Z M100 0 A100 100 0 0 1 0 100 Z");
+}
+

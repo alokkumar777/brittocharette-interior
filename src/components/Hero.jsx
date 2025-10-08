@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
       </div>
       {/* sub-section */}
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center max-w-6xl mx-auto px-4 md:px-0 gap-6 md:gap-0 mb-[12rem]">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center max-w-6xl mx-auto px-4 md:px-0 gap-6 md:gap-0">
         <div className="flex flex-col md:flex-row gap-4 md:gap-x-8 w-full md:w-auto">
           <img
             className="w-full md:w-[12rem] h-48 md:h-[14rem] object-cover object-center md:object-left rounded-3xl md:rounded-4xl"
