@@ -25,10 +25,28 @@ const Hero = () => {
           Best of year
         </span>
         <img
-          className="w-full rounded-3xl md:rounded-4xl object-cover"
+          className="w-full rounded-3xl md:rounded-4xl object-cover mb-24"
           src="/images/int-h-main.jpg"
           alt="Main interior design"
         />
+        <div className="absolute bottom-0 right-0 transform translate-y-2/3">
+          <div className="flex justify-end">
+            <img
+              className="size-10 rounded-full object-cover"
+              src="/images/p-2.jpg"
+              alt=""
+            />
+            <img
+              className="size-10 rounded-full object-cover"
+              src="/images/p-1.jpg"
+              alt=""
+            />
+          </div>
+          <div className="flex flex-col items-end font-bold">
+            <p>Founder And Principal</p>
+            <p>Brittocharette</p>
+          </div>
+        </div>
       </div>
     </>
   );
