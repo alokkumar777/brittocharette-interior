@@ -29,20 +29,20 @@ const Hero = () => {
           src="/images/int-h-main.jpg"
           alt="Main interior design"
         />
-        <div className="absolute bottom-0 right-0 transform translate-y-2/3">
-          <div className="flex justify-end">
+        <div className="absolute bottom-0 right-0 transform translate-y-1/2 md:translate-y-2/3 px-4 md:px-0">
+          <div className="flex justify-end gap-1 mb-2">
             <img
-              className="size-10 rounded-full object-cover"
+              className="size-8 md:size-10 rounded-full object-cover border-2 border-white"
               src="/images/p-2.jpg"
               alt=""
             />
             <img
-              className="size-10 rounded-full object-cover"
+              className="size-8 md:size-10 rounded-full object-cover border-2 border-white"
               src="/images/p-1.jpg"
               alt=""
             />
           </div>
-          <div className="flex flex-col items-end font-bold">
+          <div className="flex flex-col items-end font-bold text-xs md:text-base">
             <p>Founder And Principal</p>
             <p>Brittocharette</p>
           </div>
