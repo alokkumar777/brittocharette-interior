@@ -2,7 +2,7 @@ import React from "react";
 
 const Showroom = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 md:px-6 w-full mt-12 md:mt-24">
+    <div className="max-w-6xl mx-auto px-4 md:px-6 w-full mt-6 md:mt-12">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 md:gap-12">
         <div className="w-full md:w-1/2">
           <h1 className="text-4xl md:text-6xl mb-4 md:mb-6 leading-tight font-semibold">
