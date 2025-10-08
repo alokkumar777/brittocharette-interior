@@ -9,6 +9,7 @@ const Navbar = () => {
         <ul className="flex gap-4">
           <li className="cursor-pointer">About</li>
           <li className="cursor-pointer">Project</li>
+          <li className="cursor-pointer">Career</li>
         </ul>
       </div>
       <div className="flex items-center gap-2">
@@ -40,11 +41,12 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute top-14 left-0 right-0 bg-white shadow-lg z-50 py-6 px-4 rounded-lg mx-4">
           <ul className="flex flex-col items-center gap-4 mb-4">
-            <li className="cursor-pointer text-lg">About</li>
-            <li className="cursor-pointer text-lg">Project</li>
+            <li className="cursor-pointer text-sm">About</li>
+            <li className="cursor-pointer text-sm">Project</li>
+            <li className="cursor-pointer text-sm">Career</li>
           </ul>
           <div className="flex justify-center">
-            <button className="rounded-full border-2 border-black py-2 px-6 hover:bg-black hover:text-white transition duration-300">
+            <button className="rounded-full border-2 text-sm border-black py-2 px-6 hover:bg-black hover:text-white transition duration-300">
               Contact Us
             </button>
           </div>
