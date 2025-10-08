@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center gap-2">
         <img src="/images/logo.svg" className="w-8 h-8 rounded-full" />
-        <span className="font-semibold text-lg">Brittocharette</span>
+        <span className="font-semibold text-sm md:text-lg">Brittocharette</span>
       </div>
       <div className="hidden md:block">
         <button className="rounded-full border-2 border-black py-2 px-6 hover:bg-black hover:text-white transition duration-300">
